@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Esperar a que la base de datos esté disponible
-wait-for-it.sh marine-db:3306 --timeout=60 --strict -- echo "DB is up"
+wait-for-it.sh prod-fuerza-db:3306 --timeout=60 --strict -- echo "DB is up"
 
 # Ejecutar composer install
 echo "Running composer install..."
