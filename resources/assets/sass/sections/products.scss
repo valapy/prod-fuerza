@@ -1,0 +1,355 @@
+.product-page {
+  width: 100%;
+  
+  .products-header {
+    background: #B61B27;
+    height: 38px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 !important;
+
+    .container {
+      .dropdown {
+        .btn {
+          color: white;
+          background: none;
+        }
+
+        .dropdown-item {
+          color: #C52F33;
+        }
+      }
+    }
+
+    .filter-list li {
+      //padding: 2px 18px;
+      font-size: 0.75em;
+      text-transform: uppercase;
+
+      a {
+        color: white;
+        padding: 14px 18px 7px;
+        display: block;
+      }
+
+      a.active {
+        background: white;
+        color: #B61B27;
+      }
+
+      a:hover {
+        text-decoration: none;
+      }
+    }
+
+    .filter-list li.text-white {
+      padding: 14px 18px 7px;
+    }
+  }
+
+  .products-list {
+    text-align: center;
+    padding-top: 100px;
+    text-transform: uppercase;
+
+    img {
+      max-width: 60%;
+      max-height: 208px;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+  }
+
+  .product-details {
+    padding-top: 38px;
+    max-width: 1920px;
+    margin: 0 auto;
+
+    header {
+      height: 100vh;
+    }
+
+    .scroll-menu {
+      ul {
+        display: flex;
+        min-height: 30px;
+        max-width: 500px;
+        flex-direction: row;
+        align-items: stretch;
+        margin: 45px auto;
+
+        li {
+          flex: 1;
+          border: 1px solid #B61B27;
+          text-align: center;
+          text-transform: uppercase;
+          padding: 7px 7px 0px 7px;
+          margin: 0 10px;
+          font-size: 0.75em;
+          border-radius: 7px;
+        }
+
+        li.active {
+          background: #B61B27;
+
+          a {
+            color: white;
+          }
+        }
+      }
+    } 
+
+    .intro {
+      margin: 0 150px;
+
+      hr {
+        width: 40%;
+        border: none;
+        border-top: 1px solid #d51423;
+        margin: 2.8rem auto;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: row;
+
+        .col {
+          flex: 1.3;
+          display: flex;
+
+          .product_image {
+            width: 100%;
+            display: flex;
+            align-self: center;
+          }
+        }
+
+        .col:last-child {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+          img {
+            width: 200px;
+            margin-bottom: 20px;
+          }
+
+          .intro-text {
+            font-size: 1.2em;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+
+    .colors {
+      ul li {
+        display: block;
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        border: 1px solid #525252;
+        margin-left: 10px;
+      }
+    }
+
+    .spot-price {
+      color: #B61B27;
+      font-size: 1.8rem;
+      font-weight: bold;
+
+      span {
+        color: #B61B27;
+        font-size: 1.5rem;
+      }
+    }
+
+    .financing {
+      select {
+        background: white;
+        border: 1px solid #B61B27;
+        border-radius: 7px;
+        padding: 7px;
+      }
+
+      .financing-price {
+        font-size: 1.2em;
+        font-weight: bold;
+
+        span {
+          font-size: 0.7em;
+        }
+      }
+    }
+
+    .video {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 */
+      padding-top: 25px;
+      height: 0;
+      
+      iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .description {
+      display: flex;
+      flex-direction: row;
+      padding: 0 150px;
+
+      .description-text {
+        font-size: 0.85em;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+
+        div {
+          padding: 0 15px;
+        }
+
+        hr {
+          margin-left: 0;
+          margin-right: 0;
+          width: 30%;
+          border: none;
+          border-top: 1px solid #525252;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+          font-size: 1.2em;
+          font-weight: bold;
+        }
+      }
+
+      .col {
+        flex: 1;
+        padding: 0;
+
+        .description_image {
+          width: 100%;
+        }
+      }
+
+      .grid-container {
+        padding: 20px;
+        position: relative;
+  
+        h2 {
+          position: relative;
+          font-size: 0.85em;
+          text-transform: uppercase;
+          font-weight: 400;
+          padding-left: 10px;
+          padding-top: 13px;
+
+          .line {
+            position: absolute;
+            left: 9px;
+            top: 0px;
+            width: 80px;
+            border: solid #656565 1px;
+          }
+        }
+
+        table {
+          font-size: 0.8em;
+
+          td {
+            padding: 5px 10px 3px;
+          }
+        }
+      }
+    }
+
+    .description-odd {
+      flex-direction: row-reverse !important;
+    }
+
+    .product-table {
+      width: 100%;
+    }
+
+    .catalog {
+      padding: 40px 0;
+      text-align: center;
+
+      .btn {
+        color: white;
+        padding: 10px;
+      }
+    }
+
+    .gallery-grid {
+      min-height: 336px;
+      margin: 40px 0;
+      grid-template-columns: repeat(3, 1fr);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .gallery-item {
+        height: 336px;
+        flex: 0 0 calc(33%);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+
+    .overlay {
+      .btn-close {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+      }
+
+      .gallery {
+        height: 100%;
+        margin-left: $main-menu-width;
+
+        .carousel-inner {
+          height: 100%;
+
+          .carousel-item {
+            height: 100%;
+            
+            .carousel-item-container {
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              img {
+                display: flex;
+                max-height: 95vh;
+                max-width: 95vh;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #home-products {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 60px;
+
+    .slide img {
+      height: 208px;
+    }
+  }
+}

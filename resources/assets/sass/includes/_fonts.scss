@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Nexa';
+    src: url('/fonts/NexaLight.woff2') format('woff2'), url('/fonts/NexaLight.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('/fonts/NexaRegular.woff2') format('woff2'), url('/fonts/NexaRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('/fonts/NexaBold.woff2') format('woff2'), url('/fonts/NexaBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('/fonts/MyriadPro-Regular.woff2') format('woff2'), url('/fonts/MyriadPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$nexa: "Nexa", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$myriad: "Myriad Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;

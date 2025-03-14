@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1171px" height="162px" viewBox="0 0 1171 162" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <title>footer</title>
+  <desc>Created with Sketch.</desc>
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="footer">
+      <polygon id="Fill-1" fill="#9F0B19" points="0.0003 127.0123 1170.1303 127.0123 1170.1303 53.0713 0.0003 53.0713"/>
+      <polygon id="Fill-2" fill="#821D1F" points="0 78.3477 512.667 57.521 1170.13 82.2488 1170.13 6.309 602.591 33.793 0 0"/>
+      <polygon id="Fill-3" fill="#AB5E63" points="520.318 57.521 602.59 33.794 753.92 57.521"/>
+      <polygon id="Fill-4" fill="#9F0B19" points="1028.72 20.212 753.919 57.521 602.59 33.794"/>
+      <polygon id="Fill-5" fill="#A11A2E" points="0 21.881 0 61.614 345.335 21.332"/>
+      <polygon id="Fill-6" fill="#5A1C15" points="0 78.55 0 79.0211 524.787 58.01 607.768 34.079 561.45 32.788"/>
+      <polygon id="Fill-7" fill="#8E1A1F" points="342.395 19.201 305.777 49.526 556.667 32.516"/>
+      <polygon id="Fill-8" fill="#8E1A1F" points="1028.72 20.212 1170.13 77.914 1170.13 15.708"/>
+      <polygon id="Fill-9" points="0.0003 161.898 1170.1303 161.898 1170.1303 53.071 0.0003 53.071" style="fill: rgb(33, 95, 152);"/>
+      <polygon id="Fill-10" points="0 78.3477 512.667 57.521 1170.13 82.2488 1170.13 6.309 602.591 33.793 0 0" style="fill: rgb(22, 63, 101);"/>
+      <polygon id="Fill-11" points="520.318 57.521 602.59 33.794 753.92 57.521" style="fill: rgba(112, 142, 170, 0.686);"/>
+      <polygon id="Fill-12" points="1028.72 20.212 753.919 57.521 602.59 33.794" style="fill: rgb(27, 77, 123);"/>
+      <polygon id="Fill-13" points="0 21.881 0 61.614 345.335 21.332" style="fill: rgb(81, 123, 162);"/>
+      <polygon id="Fill-14" points="0 78.55 0 79.0211 524.787 58.01 607.768 34.079 561.45 32.788" style="fill: rgb(19, 57, 91);"/>
+      <polygon id="Fill-15" points="342.395 19.201 305.777 49.526 556.667 32.516" style="fill: rgb(33, 95, 152);"/>
+      <polygon id="Fill-16" points="1028.72 20.212 1170.13 77.914 1170.13 15.708" style="fill: rgb(65, 125, 180);"/>
+    </g>
+  </g>
+</svg>

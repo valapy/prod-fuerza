@@ -1,0 +1,140 @@
+@media (max-width: 600px) {
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .btn-budget {
+    top: 385px;
+  }
+
+  .back-to-top {
+    display: none;
+  }
+
+  .content-page .container ul.brand-list li {
+    width: 48%;
+  }
+
+  .home-page {
+    .container .gallery {
+      padding-bottom: 45px;
+      text-align: center;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .product-page .product-details {
+    .intro {
+      margin: 0;
+    }
+
+    .container {
+      text-align: center;
+      flex-direction: column-reverse;
+      padding: 0;
+      margin: 0;
+
+      .col {
+        padding: 0;
+      }
+
+      .col:last-child img {
+        width: 100%;
+      }
+    }
+
+    #price .container {
+      flex-direction: column;
+    }
+
+    .colors .inline-list {
+      display: flex;
+      justify-content: center;
+    }
+
+    .scroll-menu ul {
+      flex-direction: column;
+
+      li {
+        margin-bottom: 10px;
+        padding: 10px;
+      }
+    }
+
+    .description, .description-odd {
+      padding: 15px;
+      flex-direction: column !important;
+    }
+
+    .gallery-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .carousel-item img {
+      width: 100%;
+    }
+
+    .overlay {
+      .gallery {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+
+        .carousel-inner .carousel-item .carousel-item-container img {
+          width: 100%;
+        }
+      }
+
+      .btn-close,
+      .arrow {
+        display: none;
+      }
+    }
+  }
+
+  .overlay .content {
+    width: 100%;
+    height: 100%;
+    padding: 55px 20px 20px 20px;
+
+    .logo {
+      top: 0;
+
+      h1 {
+        display: block;
+        font-size: 1.4em;
+        color: #C52F33;
+        margin-top: 14px;
+        font-weight: bold;
+      }
+
+      img {
+        display: none;
+      }
+    }
+
+    form input, form textarea {
+      margin-bottom: 0;
+    }
+  }
+  
+  .information-block {
+    min-height: 500px !important;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .footer {
+    position: relative;
+  }
+}

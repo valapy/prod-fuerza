@@ -1,0 +1,40 @@
+@import "dependencies/trumbowyg";
+
+.gallery {
+    .deletable {
+        position: relative;
+        padding: 10px;
+
+        .btn-danger {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+        }
+    }
+}
+
+.list {
+    margin-bottom: 10px;
+
+    .list-item {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+        margin-top: 10px;
+    }
+}
+
+.main-header>.logo {
+    background-color: white !important;
+    height: 65px !important;
+}
+
+.main-header>.logo>.logo-lg {
+    display: block !important;
+
+    &>img {
+        display: block !important;
+        width: 80% !important;
+        object-fit: cover !important;
+        margin: 0 auto !important;
+    }
+}
