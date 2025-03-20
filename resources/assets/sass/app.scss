@@ -85,7 +85,7 @@ ul.top-menu {
 }
 
 .page-header {
-    background: #215F98;
+    background: #D62835;
     padding: 20px 0;
     color: white;
     display: flex;
@@ -250,7 +250,7 @@ a,
 a:hover,
 a:visited,
 a:active {
-    color: #215F98;
+    color: #D62835;
     font-weight: 600;
     text-decoration: none;
 }
@@ -443,7 +443,7 @@ label {
 }
 
 .btn-form-send {
-    background: #215F98;
+    background: #D62835;
     color: white;
     border-radius: 5px;
     padding: 15px 30px;
@@ -453,7 +453,7 @@ label {
     &:hover {
         text-decoration: none;
         color: white;
-        background: darken(#215F98, 10%);
+        background: darken(#D62835, 10%);
     }
 }
 

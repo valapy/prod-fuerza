@@ -18817,7 +18817,7 @@ ul.top-menu li img {
 }
 
 .page-header {
-  background: #215F98;
+  background: #D62835;
   padding: 20px 0;
   color: white;
   display: -webkit-box;
@@ -19009,7 +19009,7 @@ a,
 a:hover,
 a:visited,
 a:active {
-  color: #215F98;
+  color: #D62835;
   font-weight: 600;
   text-decoration: none;
 }
@@ -19237,7 +19237,7 @@ label {
 }
 
 .btn-form-send {
-  background: #215F98;
+  background: #D62835;
   color: white;
   border-radius: 5px;
   padding: 15px 30px;
@@ -19248,7 +19248,7 @@ label {
 .btn-form-send:hover {
   text-decoration: none;
   color: white;
-  background: #18456e;
+  background: #ab202a;
 }
 
 .home-page {
@@ -19581,13 +19581,13 @@ label {
 }
 
 .main-menu ul li a.logo img {
-  max-height: 120px !important;
-  max-width: 120px !important;
+  max-height: 140px !important;
+  max-width: 140px !important;
   margin-bottom: 0px;
 }
 
 .main-menu ul li a.router-link-active {
-  border-right: 2px solid #215F98;
+  border-right: 2px solid #D62835;
 }
 
 .main-menu ul li a:hover {

@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => 'Honda Marine',
+    'title' => 'Productos de Fuerza',
 
     'title_prefix' => '',
 
@@ -30,8 +30,8 @@ return [
     |
     */
 
-    'logo' => '<img src="/img/logo-honda-marine-mini.png" />',
-    'logo_mini' => '<img src="/img/logo-honda-marine-mini.png" />',
+    'logo' => '<img src="/img/logo-mini.png" />',
+    'logo_mini' => '<img src="/img/logo-mini.png" />',
 
     /*
     |--------------------------------------------------------------------------
@@ -44,7 +44,7 @@ return [
     |
     */
 
-    'skin' => 'blue',
+    'skin' => 'red',
 
     /*
     |--------------------------------------------------------------------------

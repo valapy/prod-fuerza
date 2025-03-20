@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo docker cp ./public/img/. honda-marine:/var/www/public/img/
+sudo docker cp ./public/img/. honda-prod-fuerza:/var/www/public/img/

@@ -42,7 +42,7 @@
             <ul class="no-list">
                 <li>
                     <router-link :to="{ name: 'home' }" class="logo">
-                        <img src="/img/logo-honda-red.png" alt="Honda" />
+                        <img src="/img/logo.png" alt="Honda" />
                     </router-link>
                 </li>
                 <li>
