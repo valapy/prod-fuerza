@@ -1,7 +1,6 @@
 Dockerfile
 docker-compose.yml
 .env
-vendor
 node_modules
 mysql
 nginx
