@@ -9,15 +9,15 @@ composer install --no-interaction --prefer-dist --optimize-autoloader
 
 # Generar la clave de la aplicación
 echo "Generating application key..."
-php artisan key:generate
+#php artisan key:generate
 
 # Ejecutar las migraciones
 echo "Running migrations..."
-php artisan migrate
+#php artisan migrate
 
 # Ejecutar los seeders
 echo "Running database seeders..."
-php artisan db:seed
+#php artisan db:seed
 
 echo "Running npm install..."
 npm install
