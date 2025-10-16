@@ -105,13 +105,13 @@ new Vue({
     used_products: [],
   },
   methods: {
-    showOverlay: function (name) {
+    showOverlay: function(name) {
       this.overlay = name
     },
-    showMenu: function () {
+    showMenu: function() {
       this.isMainMenuVisible = true;
     },
-    hideMenu: function () {
+    hideMenu: function() {
       this.isMainMenuVisible = false;
     },
     step(arr, step, continuousIndices) {
@@ -130,7 +130,7 @@ new Vue({
   components: {
     'v-back-to-top': require('./components/partials/top-button')
   },
-  created: function () {
+  created: function() {
     $.ajax({
       url: '/data.json'
     }).done(data => {
@@ -158,7 +158,7 @@ new Vue({
         } else if (a.category > b.category) {
           return 1;
         }
-        
+
         if (a.model < b.model) {
           return -1;
         } else if (a.model > b.model) {
@@ -174,11 +174,14 @@ new Vue({
       $('html, body').animate({ scrollTop: '0px' }, 200);
     }
   },
+  mounted: function() {
+    $('html, body').removeClass('page-is-loading');
+  },
 }).$mount('#app')
 
-$(function () {
+$(function() {
   $(".carousel").swipe({
-    swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
+    swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
       if (direction == 'left') $(this).carousel('next');
       if (direction == 'right') $(this).carousel('prev');
     },
@@ -188,8 +191,8 @@ $(function () {
   $(document).on('click', 'a[href*="#"]', function(event) {
     // On-page links
     if (
-      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-      && 
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+      &&
       location.hostname == this.hostname
     ) {
       // Figure out element to scroll to
@@ -209,7 +212,7 @@ $(function () {
           if ($target.is(":focus")) { // Checking if the target was focused
             return false;
           } else {
-            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
             $target.focus(); // Set focus again
           };
         });
@@ -217,3 +220,4 @@ $(function () {
     }
   });
 })
+

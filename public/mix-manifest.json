@@ -1,10 +1,6 @@
 {
     "/js/main.js": "/js/main.js",
-    "/js/main.js.map": "/js/main.js.map",
     "/js/cms.js": "/js/cms.js",
     "/css/app.css": "/css/app.css",
-    "/css/cms.css": "/css/cms.css",
-    "/js/cms.js.map": "/js/cms.js.map",
-    "/css/app.css.map": "/css/app.css.map",
-    "/css/cms.css.map": "/css/cms.css.map"
+    "/css/cms.css": "/css/cms.css"
 }
